@@ -28,7 +28,7 @@ button {
 	position: relative;
 	height: 875px;
 	width: 1366px;
-	background-image: url('../template-design/banner.jpg') ;
+	background-image: url('../test-GitPage/banner.jpg') ;
 	background-size: 100% 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -649,7 +649,7 @@ button {
 	position: relative;
 	height: 544px;
 	width: 1366px;
-	background-image: url('../template-design/our-customers.jpg') ;
+	background-image: url('../test-GitPage/our-customers.jpg') ;
 	background-size: 100% 100%;
 	background-position: center;
 	background-repeat: no-repeat;
