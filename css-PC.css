@@ -1,0 +1,98 @@
+ @media  screen and (min-width: 900px) {
+
+/*----- banner ---- */
+
+button {
+	width: 195px;
+	height: 50px;
+ 	font-size: 16px;
+}
+
+.section-top {
+	flex-basis:80%;
+}
+.header {
+	height: 875px;
+	background-size: cover;
+	background-image: url('../template-design/banner.jpg') ;
+}
+
+.section-top ul {
+	margin-top: 43px;
+
+}
+
+.hapo-erp {
+	height: 77px;
+	margin-top: 244px;
+}
+
+
+.icon-and-text img {
+	width: 52px;
+	height: 48px;
+}
+
+.icon-and-text p {
+	color: #283238;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: -0.07px;
+}
+
+ .icon-like p, .icon-like img {
+ 	margin-left: -70px;
+ }
+
+ .txt-content p {
+	
+	font-size: 18px;
+	margin-top: 50px;
+	
+}
+
+.btn-start-top {
+     margin-top: 50px;
+
+}
+
+/*----- banner ---- */
+
+/*------DRY CODE----*/
+.body-part1, .body-part2, .body-part4, .body-part5, .body-part6, .body-part7 {
+	height: 571px;
+}
+
+
+
+.content-part1, .content-part2, .content-part4, .content-part5, .content-part6, .content-part7 {
+	display: flex;
+	justify-content: space-between;
+	flex-direction:row;
+	flex-basis:80%;
+}
+
+
+.container-left, .customers-left  {	
+	margin-top: 100px;
+	height: 366.33px;
+	width: 48.62%;
+}
+.container-right, .customers-right {
+	height: 366.33px;
+	margin-top: 100px;
+	width: 48.68%;
+}
+
+
+
+
+
+
+
+
+/*------DRY CODE----*/
+
+}
+

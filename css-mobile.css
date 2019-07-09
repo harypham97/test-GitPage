@@ -1,0 +1,170 @@
+
+@media screen and (min-width: 120px) and (max-width:480px){
+
+
+button {
+	width: 144px;
+	height: 40px;
+ 	font-size: 14px;
+}
+
+.section-top {
+	flex-basis:94%;
+}
+.header {
+	height: 265.75px;
+	background-image: url('../template-design/banner-mobile.jpg') ;
+	
+ }
+.section-top ul {
+		margin-top: 13px;
+}
+.hapo-erp {
+	
+	height: 30px;
+	width: 100%;
+	margin-top: 20px;
+  
+}
+.hapo-erp img {
+	height: 29px;
+	width: 96px;
+}
+
+.icon-and-text img {
+	width: 18px;
+	height: 20px;
+}
+
+.icon-and-text p {
+	color: #283238;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.03px;
+}
+
+.icon-like p, .icon-like img {
+ 	margin-left: -50px;
+ }
+
+.icon-gift p, .icon-gift img {
+ 	margin-left: 50px;
+ }
+
+ .txt-content p {
+	font-size: 9px;
+	
+}
+
+.btn-start-top {
+     margin-top: 0px;
+
+}
+
+/*------DRY CODE----*/
+
+.body-part1, .body-part2, .body-part4, .body-part5, .body-part6, .body-part7 {
+	height: 678px;
+}
+
+.content-part1, .content-part2, .content-part4, .content-part5, .content-part6, .content-part7 {
+	flex-basis:96%;
+	display: flex;
+	flex-direction:column;
+	
+	border: 1px solid red;
+}
+
+.img-part1, .img-part2, .img-part4, .img-part5, .img-part7 {
+	height: 366.33px;
+	width: 100%;
+}
+
+.container-left, .customers-left  {	
+	border: 3px solid yellow;
+	margin-top: 30px;
+	height: 300.33px;
+	width: 100%;
+}
+.container-right, .customers-right {
+	border: 3px solid green;
+	height: 300.33px;
+	margin-top: 30px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------DRY CODE----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+	
+
+

@@ -28,7 +28,7 @@ button {
 	position: relative;
 	height: 875px;
 	width: 1366px;
-	background-image: url('../banner.jpg') ;
+	background-image: url('../template-design/banner.jpg') ;
 	background-size: 100% 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -78,7 +78,7 @@ button {
 }
 
 
-.icon161-themify {
+.icon-gift {
 	position: absolute;
 	width: 96px;
     height: 110px;
@@ -92,13 +92,13 @@ button {
 
 }
 
-.icon161-themify .icon161 {
+.icon-gift .gift {
 	width: 52px;
     height: 48px;
     margin-left: 22px;
 }
 
-.icon199-themify {
+.icon-clock {
 	position: absolute;
 	width: 101px;
     height: 110px;
@@ -112,13 +112,13 @@ button {
 
 }
 
-.icon199-themify .icon199 {
+.icon-clock .clock {
 	width: 52px;
     height: 48px;
     margin-left: 22px;
 }
 
-.icon113-themify {
+.icon-like {
 	position: absolute;
 	width: 141px;
     height: 110px;
@@ -132,7 +132,7 @@ button {
 
 }
 
-.icon113-themify .icon113 {
+.icon-like .like {
 	width: 52px;
     height: 48px;
     margin-left: 22px;
@@ -198,7 +198,7 @@ button {
 
 }
 
-.body-part1 .container-right .icon25-themify {
+.body-part1 .container-right .icon-leart {
 	position: absolute;
 	height: 36px;
 	width: 36px;
@@ -300,7 +300,7 @@ button {
 }
 
 
-.body-part2 .daily-report-left .icon201-themify {
+.body-part2 .daily-report-left .icon-report {
 	position: absolute;
 	height: 36px;
 	width: 36px;
@@ -523,7 +523,7 @@ button {
 	line-height: 19px;
 }
 
-.body-part4 .left-part4 .icon78-themify {
+.body-part4 .left-part4 .icon-check-box {
 	position: absolute;
 
 	height: 24px;
@@ -536,7 +536,7 @@ button {
 
 }
 
-.body-part4 .left-part4 .icon3-themify {
+.body-part4 .left-part4 .icon-members {
 	position: absolute;
 	top:14px;
 	height: 36px;
@@ -583,7 +583,7 @@ button {
 
 }
 
-.body-part5 .right-part5 .icon288-themify {
+.body-part5 .right-part5 .icon-smile {
 	position: absolute;
 	height: 36px;
 	width: 36px;
@@ -649,7 +649,7 @@ button {
 	position: relative;
 	height: 544px;
 	width: 1366px;
-	background-image: url('our-customers.jpg') ;
+	background-image: url('../template-design/our-customers.jpg') ;
 	background-size: 100% 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -916,7 +916,7 @@ button {
 }
 
 
-.body-part7 .left-part7 .icon201-themify {
+.body-part7 .left-part7 .icon-project {
 	position: absolute;
 	height: 36px;
 	width: 36px;
