@@ -1,442 +1,464 @@
 <!DOCTYPE html>
 <html>
-<title>PC FIX</title>
+<title>Template Bootstrap</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-<link rel="stylesheet" href="../template-design/css-mobile.css">
-<link rel="stylesheet" href="../template-design/css-PC.css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet"/>
 
 
-<link rel="stylesheet" href="../template-design/css-second-time.css">
+<link rel="stylesheet" href="../design-bootstrap/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
 <style type="text/css">
 	
-* {
-	margin:0;
-	padding: 0;
-}
+	* {
+		margin:0;
+		padding: 0;
+	}
 
 </style>
+<script type="text/javascript">
+	
+// var windowsize = $(window).width();
 
+// $(window).resize(function() {
+//   windowsize = $(window).width();
+//   if (windowsize < 1700 && windowsize > 758) {
+    
+//       $('.col-xl-60p').width('80%');
+//   }
+// });
+
+</script>
 
 <body>
 
-
-<header class="header">
-	
-	<div class="section-top">
-		<ul>
-			<li class="about-us"><a href="#">ABOUT US</a></li>
-			<li class="sign-in"><a href="#">SIGN IN</a></li>
-		</ul>
-		<div class="hapo-erp">
-			<img class="" src="../template-design/hapoERP.png" >
-		</div>
-
-		<div class="icon-and-text">
-			<div class="container-banner icon-gift">
-	                <img  src="../template-design/icon-gift.svg">
-	                <p>Better</p>
-	        </div>
-	        <div class ="container-banner">
-				<img  src="../template-design/icon-clock.svg">
-				<p>Faster</p>
-			</div>
-			<div class="container-banner icon-like">
-					<img src="../template-design/icon-like.svg">
-					<p>Together</p>
-			</div>
-		</div>
-
-
-
-			<div class="txt-content">
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-			</div>
-
-			<div class="btn-start-top">
-				<button id="btnStart">start now</button>
-			</div>
-
-	</div>
-
-</header>
-
-
-
-
-<div class="body-part1"> 
-
-	
-
-	<div class="content-part1">
-		<div class="container-left">
-
-			<img class="img-part1" src="../template-design/today-i-learn.png" >
-		</div>
-		<div class="container-right">
-			<div class="icon-and-title pc">
-				<img  src="../template-design/icon-leart.svg" >
-				<h1>Today i learnt</h1>
-			</div>
-			<div class="text-content">
-				<span>Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				<div class="btn-content">
-					<button id="btnStart"> start now</button>
-				</div>
-			</div>
-		</div>
-	
-	</div>
-	
-	
-</div>
-
-<!--
-<div class="body-part2">
-	
-	<div class="content-part2">
-		<div class="daily-report-left"> 
-			<div class="icon-and-title">
-				<img class="icon-report" src="../template-design/icon-report.svg" alt="">
-				<h1>Daily report</h1>
-			</div>
-			<div class="text-content">
-				<span>Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-			
-				<div class="btn-content">
-					<button id="btnStart"> start now</button>
-				</div>
-			</div>
-		</div>
-
-		<div class="daily-report-right">
-			<img class="img-part2" src="../template-design/daily-report.png" >
-		</div>
-	</div>
-	
-</div>
-
-
-<div class="background-part3">
-
-<div class= "body-part3">
-		<div class="container-part3">
-					<div class="oval-1-part3">
-						<img class="icon-part3" src="../template-design/icon-report.svg" >
+	<header class="header">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-60p col-96p  mx-auto">
+					<div class="d-flex justify-content-end">
+						<ul class="col-xl-3 col-12 ul-banner d-flex justify-content-end">
+							<li class="about-us"><a href="#">ABOUT US</a></li>
+							<li class="sign-in d-flex align-items-center"><a href="#">SIGN IN</a></li>
+						</ul>	
 					</div>
-					<div class="oval-2-part3">
-						<p>1</p>
+					<div class="text-center logo-banner">
+						<img class="hapo-erp" src="../template-design/hapoERP.png" >
 					</div>
-				<p class="text-part3">DAILY REPORT</>
-				
-		</div>
-
-		<div class="container-part3">
-			<div class="oval-1-part3">
-				<img class="icon-part3" src="../template-design/icon-leart.svg" >
-			</div>
-			<div class="oval-2-part3">
-				<p>2</p>
-			</div>
-			<div class="text-part3">WRITE &nbsp&nbsp&nbspTIL&nbsp&nbsp&nbsp</div>
-		</div>
-
-		<div class="container-part3">
-			<div class="oval-1-part3">
-					<img class="icon-part3" src="../template-design/icon-manage-members.svg" >
-			</div>
-			<div class="oval-2-part3">
-				<p>3</p>
-			</div>
-			<div class="text-part3">MANAGE MEMBERS</div>
-		</div>
-
-		<div class="container-part3">
-			<div class="oval-1-part3">
-					<img class="icon-part3" src="../template-design/icon-smile.svg" >
-			</div>
-			<div class="oval-2-part3">
-				<p>4</p>
-			</div>
-			<div class="text-part3">MANAGE CUSTOMERS</div>
-		</div>
-
-		<div class="container-part3">
-			<div class="oval-1-part3">
-				<img class="icon-part3" src="../template-design/icon-project.svg" >
-			</div>
-			<div class="oval-2-part3">
-				<p>5</p>
-			</div>
-			<div class="text-part3">MANAGE PROJECTS</div>
-		</div>
-		
-	</div>
-
-</div>
-
-
-<div class="body-part4">
-	
-	<div class="content-part4">
-			<div class="members-left">
-				<div class="icon-and-title">
-					<img class="icon-members" src="../template-design/icon-members.svg" alt="">
-					<h1>Members</h1>
-				</div>
-
-				<div class="text-content">
-					<span>Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
-					<div class="check-box-text">
-						<img  src="../template-design/icon-check-box.svg" alt="">
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ….</p>
-					</div>
-				
-				
-					<div class="check-box-text">
-						<img  src="../template-design/icon-check-box.svg" alt="">
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ….</p>
-					</div>
-				
-				
-					<div class="check-box-text">
-						<img  src="../template-design/icon-check-box.svg" alt="">
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ….</p>
-					</div>
-				
-
-					<div class="btn-content">
-						<button id="btnStart"> start now</button>
-					</div>
-				</div>
-			</div>
-
-			<div class="members-right">
-				<img class="img-part4" src="../template-design/members.png" >
-			</div>
-
-	</div>
-	
-	
-</div>
-
-<div class="body-part5">
-	
-	<div class="content-part5">
-		<div class="customers-left">
-			<img class="img-part5" src="../template-design/daily-report.png" >
-		</div>
-		<div class="customers-right">
-			<div class="icon-and-title">
-				<img class="icon-smile" src="../template-design/icon-smile.svg" >
-				<h1>Customers</h1>
-			</div>
-			<div class="text-content">
-				<span>Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
-					<div class="check-box-text">
-						<img class="icon-part5" src="../template-design/unlock.svg" alt="">
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ….</p>
-					</div>
-					<div class="check-box-text">
-						<img class="icon-part5" src="../template-design/cup.svg" alt="">
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ….</p>
-					</div>
-					<div class="check-box-text">
-						<img class="icon-part5" src="../template-design/stats-up.svg" alt="">
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ….</p>
-					</div>
-					<div class="btn-content">
-						<button id="btnStart"> start now</button>
-					</div>
-			</div>
-		</div>
-	</div>
-	
-</div>
-
-<div class="body-part6">
-	
-	<div class="content-part6">
-		<div class="wrap-image">
-			<div class="title-part6">
-				<p>Our customer</p>
-			</div>
-			<div class="img-txt-part6">
-					<div class="container-face icon-face">
-						<img src="../template-design/customer-face.png">
-						<div class="customer-text">
-							<p class="name-customer">Duong NT</p>
-							<p class="job-customer">Designer</p>
+					<div class="icon-and-text d-flex justify-content-between">
+						<div class="col-4  text-center ml-4">
+							<img  src="../template-design/icon-gift.svg">
+							<p class="">Better</p>
+						</div>
+						<div class ="col-2 text-center">
+							<img  src="../template-design/icon-clock.svg">
+							<p class="">Faster</p>
+						</div>
+						<div class="col-4  text-center mr-4">
+							<img src="../template-design/icon-like.svg">
+							<p class="">Together</p>
 						</div>
 					</div>
-					<div class="container-face icon-face">
-						<img src="../template-design/customer-face.png">
-						<div class="customer-text">
-							<p class="name-customer">Duong NT</p>
-							<p class="job-customer">Designer</p>
-						</div>
-					</div>
-					<div class="container-face icon-face">
-						<img src="../template-design/customer-face.png">
-						<div class="customer-text">
-							<p class="name-customer">Duong NT</p>
-							<p class="job-customer">Designer</p>
-						</div>
-					</div>
-					<div class="container-face icon-face">
-						<img src="../template-design/customer-face.png"> 
-						<div class="customer-text">
-							<p class="name-customer">Duong NT</p>
-							<p class="job-customer">Designer</p>
-						</div>
-					</div>
-					<div class="container-face icon-face">
-						<img src="../template-design/customer-face.png">
-						<div class="customer-text">
-							<p class="name-customer">Duong NT</p>
-							<p class="job-customer">Designer</p>
-						</div>
-					</div>
-					<div class="container-face icon-face">
-						<img src="../template-design/customer-face.png">
-						<div class="customer-text">
-							<p class="name-customer">Duong NT</p>
-							<p class="job-customer">Designer</p>
-						</div>
-					</div>
-					<div class="container-face icon-face">
-						<img src="../template-design/customer-face.png">
-						<div class="customer-text">
-							<p class="name-customer">Duong NT</p>
-							<p class="job-customer">Designer</p>
-						</div>
-					</div>
-					<div class="container-face icon-face">
-						<img src="../template-design/customer-face.png">
-						<div class="customer-text">
-							<p class="name-customer">Duong NT</p>
-							<p class="job-customer">Designer</p>
-						</div>
-					</div>
-					
-				</div>
 
-			
+					<div class="text-banner">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+					</div>
+
+					<div class="btn-start-top text-center">
+						<button  class="" id="btnStart">start now</button>
+					</div>
+				</div>  
+			</div>
 		</div>
-		<div class="wrap-text">
-			<div class="three-dot">
-				<div class="dot1"></div>
-				<div class="dot2"></div>
-				<div class="dot3"></div>	
-			</div>
-			<div class="text-lorent">
-				<div class="quote-left">
-					<img src="../template-design/quote-left.svg">
-				</div>
-				
-				<div class="quote-text">
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+	</header>
 
-					</p>
-				</div>
+	<section class="section-learnt">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="content-learnt col-xl-60p col-96p mx-auto d-xl-flex justify-content-xl-between">
+					<div class="learnt-left">
+						<div class="icon-and-title col-6 d-flex mx-auto justify-content-center display-mobile">
+							<img  src="../template-design/icon-leart.svg" >
+							<h1>Today i learnt</h1>
+						</div>
+						<div class="text-content text-center display-mobile">
+							<span>Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
+						</div>
 
-				<div class="quote-right">
-					<img src="../template-design/quote-right.svg">
-				</div>
-			</div>
-			
-		</div>
-		
+						<img class="img-learnt" src="../template-design/today-i-learn.png" >
+					</div>
 
-
-	</div>
-
-
-</div>
-
-<div class="body-part7">
-	
-	<div class="content-part7">
-		<div class="project-left"> 
-			<div class="icon-and-title">
-				<img class="icon-project" src="../template-design/icon-project.svg" alt="">
-				<h1>Project</h1>
-			</div>
-			<div class="text-content">
-				<span>Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-				<div class="btn-content">
-					<button id="btnStart"> start now</button>
+					<div class="learnt-right">
+						<div class="icon-and-title d-flex display-pc">
+							<img  src="../template-design/icon-leart.svg" >
+							<h1>Today i learnt</h1>
+						</div>
+						<div class="text-content">
+							<span class="d-flex align-items-start display-pc">Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							<div class="btn-content">
+								<button id="btnStart"> start now</button>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
+	</section>
 
-		<div class="project-right">
-			<img class="img-part7" src="../template-design/daily-report.png" >
+	<section class="section-report">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="content-report col-xl-60p col-96p mx-auto d-xl-flex justify-content-xl-between">
+					<div class="daily-report-left"> 
+						<div class="icon-and-title col-6 col-xl-12 d-flex mx-auto ">
+							<img class="icon-report" src="../template-design/icon-report.svg" alt="">
+							<h1>Daily report</h1>
+						</div>
+						<div class="text-content row">
+							<span class="col-12">Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
+							<p class="col-12">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							<div class="btn-content col-12 display-pc">
+								<button id="btnStart"> start now</button>
+							</div>
+						</div>
+					</div>
+					<div class="daily-report-right">
+						<img class="img-report" src="../template-design/daily-report.png" >
+						<div class="btn-content display-mobile">
+							<button id="btnStart"> start now</button>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	
-	</div>
-	
-</div>
+	</section>
 
-<footer class="footer">
+	<section class="section-feature">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="content-feature col-xl-60p col-96p mx-auto d-flex justify-content-between">
+					<div class="container-feature">
+						<div class="oval-1-part3 d-flex align-items-center justify-content-center">
+							<img class="icon-part3" src="../template-design/icon-report.svg" >
+						</div>
+						<div class="oval-2-part3">
+							<p>1</p>
+						</div>
+						<p class="text-part3 mx-auto">DAILY REPORT</>
+					</div>
 
-	<div class="content-footer">
-			<div class="logo-footer">
-				<img src="../template-design/hapoERP.png" >
-				<p>Copyright 2017</p>
-				
-			</div>
-			<div class="list-link">
-				<p class="title-footer">GET IN TOUCH</p>
-				<ul>
-			          <li><a href="#">Contact us</a></li>
-			          <li><a href="#">Contact Sales</a></li>        
-			    </ul>
-			</div>
+					<div class="container-feature">
+							<div class="oval-1-part3 d-flex align-items-center justify-content-center">
+								<img class="icon-part3" src="../template-design/icon-leart.svg" >
+							</div>
+							<div class="oval-2-part3">
+								<p>2</p>
+							</div>
+							<div class="text-part3 mx-auto">WRITE &nbsp&nbsp&nbspTIL&nbsp&nbsp&nbsp</div>
+					</div>
 
-			<div class="list-link">
-				<p class="title-footer">LEARN MORE</p>
-				<ul>
-			          <li><a href="#">About us</a></li>
-			          <li><a href="#">About Hapo-ERP</a></li>        
-			    </ul>
-			</div>
+					<div class="container-feature">
+							<div class="oval-1-part3 d-flex align-items-center justify-content-center">
+								<img class="icon-part3" src="../template-design/icon-manage-members.svg" >
+							</div>
+							<div class="oval-2-part3">
+								<p>3</p>
+							</div>
+							<div class="text-part3 mx-auto">MANAGE MEMBERS</div>
+					</div>
 
-			<div class="list-link">
-				<p class="title-footer">HOW TO WORK</p>
-				<ul>
-			          <li><a href="#">About us</a></li>
-			          <li><a href="#">About Hapo-ERP</a></li>        
-			    </ul>
-			</div>
+					<div class="container-feature display-pc">
+							<div class="oval-1-part3 d-flex align-items-center justify-content-center">
+								<img class="icon-part3" src="../template-design/icon-smile.svg" >
+							</div>
+							<div class="oval-2-part3 ">
+								<p>4</p>
+							</div>
+							<div class="text-part3 mx-auto">MANAGE CUSTOMERS</div>
+					</div>
 
-			<div class="list-link">
-				<p class="title-footer">LEGAL</p>
-				<ul>
-			          <li><a href="#">Terms of Service</a></li>
-			          <li><a href="#">Privacy Policy</a></li>        
-			    </ul>
-			</div>
+					<div class="container-feature display-pc">
+							<div class="oval-1-part3 d-flex align-items-center justify-content-center">
+								<img class="icon-part3" src="../template-design/icon-project.svg" >
+							</div>
+							<div class="oval-2-part3">
+								<p class="mx-auto">5</p>
+							</div>
+							<div class="text-part3 mx-auto">MANAGE PROJECTS</div>
+					</div>
+				</div>
 
-			<div class="icon-social-network">
-				<img class="icon-facebook" src="../template-design/facebook.svg" >
-				<img class="icon-twitter" src="../template-design/twitter.svg" >
-				<img class="icon-youtube" src="../template-design/youtube.svg" >
-				<img class="icon-linkedin" src="../template-design/linkedin.svg" >
-			
+				<div class="three-dot col-12 d-flex justify-content-center display-mobile">
+						<div class="dot1"></div>
+						<div class="dot2"></div>
+						<div class="dot3"></div>	
+				</div>
 			</div>
-	</div>
-</footer>
--->
+		</div>
+	</section>
+
+	<section class="section-members">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="content-members col-xl-60p col-96p mx-auto d-xl-flex justify-content-xl-between">
+						<div class="members-left">
+							<div class="icon-and-title col-6 col-xl-12 d-flex mx-auto ">
+								<img class="icon-members" src="../template-design/icon-members.svg" alt="">
+								<h1>Members</h1>
+							</div>
+
+							<div class="text-content row">
+								<span class="col-12">Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
+
+								<div class="text-content col-12 d-flex  align-items-start check-one">
+									<img class="" src="../template-design/icon-check-box.svg" alt="">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ….</p>
+								</div>
+
+								<div class="text-content col-12 d-flex align-items-start check-two">
+									<img  src="../template-design/icon-check-box.svg" alt="">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ….</p>
+								</div>
+
+								<div class="text-content col-12 d-flex align-items-start check-three">
+									<img  src="../template-design/icon-check-box.svg" alt="">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ….</p>
+								</div>
+
+								<div class="btn-content col-12 display-pc">
+									<button id="btnStart"> start now</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="members-right">
+							<img class="img-members" src="../template-design/members.png" >
+							<div class="btn-content display-mobile">
+								<button id="btnStart"> start now</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<section class="section-customers display-pc">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="content-members col-xl-60p mx-auto d-xl-flex justify-content-xl-between">
+							<div class="customers-left">
+								<img class="img-customers" src="../template-design/daily-report.png" >
+							</div>
+							<div class="customers-right">
+								<div class="icon-and-title col-xl-12 d-flex mx-auto ">
+									<img class="icon-smile" src="../template-design/icon-smile.svg" >
+									<h1>Customers</h1>
+								</div>
+								<div class="text-content row">
+									<span class="col-12">Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
+									<div class="text-content col-12 d-flex align-items-start check-one">
+										<img  src="../template-design/unlock.svg" alt="">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ….</p>
+									</div>
+									<div class="text-content col-12 d-flex align-items-start check-two">
+										<img  src="../template-design/cup.svg" alt="">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ….</p>
+									</div>
+									<div class="text-content col-12 d-flex align-items-start check-three">
+										<img  src="../template-design/stats-up.svg" alt="">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s ….</p>
+									</div>
+									<div class="btn-content col-12">
+										<button id="btnStart"> start now</button>
+									</div>
+								</div>
+							</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section-our-customer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="content-our-customer col-xl-60p col-96p mx-auto d-flex flex-column">
+					<div class="wrap-image">
+						<div class="title-our-customer text-center d-flex justify-content-center">
+							<p>Our customer</p>
+						</div>
+						<div class="img-txt-part6 d-flex justify-content-between">
+							<div class="container-face">
+								<img src="../template-design/customer-face.png">
+								<div class="customer-text">
+									<p class="name-customer">Duong NT</p>
+									<p class="job-customer">Designer</p>
+								</div>
+							</div>
+							<div class="container-face">
+								<img src="../template-design/customer-face.png">
+								<div class="customer-text">
+									<p class="name-customer">Duong NT</p>
+									<p class="job-customer">Designer</p>
+								</div>
+							</div>
+							<div class="container-face">
+								<img src="../template-design/customer-face.png">
+								<div class="customer-text">
+									<p class="name-customer">Duong NT</p>
+									<p class="job-customer">Designer</p>
+								</div>
+							</div>
+							<div class="container-face">
+								<img src="../template-design/customer-face.png"> 
+								<div class="customer-text">
+									<p class="name-customer">Duong NT</p>
+									<p class="job-customer">Designer</p>
+								</div>
+							</div>
+							<div class="container-face display-pc">
+								<img src="../template-design/customer-face.png">
+								<div class="customer-text">
+									<p class="name-customer">Duong NT</p>
+									<p class="job-customer">Designer</p>
+								</div>
+							</div>
+							<div class="container-face display-pc">
+								<img src="../template-design/customer-face.png">
+								<div class="customer-text">
+									<p class="name-customer">Duong NT</p>
+									<p class="job-customer">Designer</p>
+								</div>
+							</div>
+							<div class="container-face display-pc">
+								<img src="../template-design/customer-face.png">
+								<div class="customer-text">
+									<p class="name-customer">Duong NT</p>
+									<p class="job-customer">Designer</p>
+								</div>
+							</div>
+							<div class="container-face display-pc">
+								<img src="../template-design/customer-face.png">
+								<div class="customer-text">
+									<p class="name-customer">Duong NT</p>
+									<p class="job-customer">Designer</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="wrap-text">
+						<div class="three-dot col-12 d-flex justify-content-center">
+							<div class="dot1"></div>
+							<div class="dot2"></div>
+							<div class="dot3"></div>	
+						</div>
+						<div class="text-lorent d-flex flex-column flex-xl-row">
+							<div class="quote-left">
+								<img src="../template-design/quote-left.svg">
+							</div>
+							<div class="quote-text">
+								<p>
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+								</p>
+							</div>
+							<div class="quote-right d-flex justify-content-end align-items-xl-end">
+								<img src="../template-design/quote-right.svg">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section-project">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="content-project col-xl-60p col-96p mx-auto d-xl-flex justify-content-xl-between">
+					<div class="project-left"> 
+						<div class="icon-and-title col-6 col-xl-12 d-flex mx-auto ">
+							<img class="icon-project" src="../template-design/icon-project.svg" alt="">
+							<h1>Project</h1>
+						</div>
+						<div class="text-content row">
+							<span class="col-12">Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
+							<p class="col-12">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							<div class="btn-content col-12 display-pc">
+								<button id="btnStart"> start now</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="project-right">
+						<img class="img-project" src="../template-design/daily-report.png" >
+						<div class="btn-content display-mobile">
+							<button id="btnStart"> start now</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="content-footer col-xl-60p col-96p mx-auto d-flex flex-column flex-xl-row justify-content-xl-between">
+					<div class="logo-footer" >
+						<img src="../template-design/hapoERP.png" >
+						<p class="display-pc">Copyright 2017</p>
+					</div>
+					<div class="list-link d-flex justify-content-between" >
+						<div class="link-contact">
+							<p class="title-footer">GET IN TOUCH</p>
+							<ul>
+								<li><a href="#">Contact us</a></li>
+								<li><a href="#">Contact Sales</a></li>        
+							</ul>
+						</div>
+
+						<div class="link-about">
+							<p class="title-footer">LEARN MORE</p>
+							<ul>
+								<li><a href="#">About us</a></li>
+								<li><a href="#">About Hapo-ERP</a></li>        
+							</ul>
+						</div>
+
+						<div class="link-work">
+							<p class="title-footer">HOW TO WORK</p>
+							<ul>
+								<li><a href="#">About us</a></li>
+								<li><a href="#">About Hapo-ERP</a></li>        
+							</ul>
+						</div>
+
+						<div class="link-legal">
+							<p class="title-footer">LEGAL</p>
+							<ul>
+								<li><a href="#">Terms of Service</a></li>
+								<li><a href="#">Privacy Policy</a></li>        
+							</ul>
+						</div>
+					</div>
+
+					<div class="icon-social-network d-flex justify-content-between align-items-xl-end">
+						<div class="list-icon-sn d-flex justify-content-between ">
+							<img class="icon-facebook" src="../template-design/facebook.svg" >
+							<img class="icon-twitter" src="../template-design/twitter.svg" >
+							<img class="icon-youtube" src="../template-design/youtube.svg" >
+							<img class="icon-linkedin" src="../template-design/linkedin.svg" >
+						</div>
+						<div class="display-mobile text-footer">
+							<p>Copyright 2017</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
-
 </html>

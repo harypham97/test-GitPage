@@ -1,0 +1,327 @@
+@media (max-width: 768px) {
+
+	.display-mobile {
+		display: block;
+	}
+	.display-pc {
+		display: none !important;
+	}
+
+
+	.col-2p {
+		width: 2%;
+	}
+	.col-96p {
+		width: 96%;
+
+	}
+
+	.header {
+		height: 265.75px;
+		background-image: url('../template-design/banner-mobile.jpg') ;
+	}
+
+	.ul-banner {
+		margin:0;
+		padding:0;
+		margin-top: 15px;
+	}
+
+
+	.about-us {
+
+		margin-top: 9px;
+	}
+
+	.sign-in {
+		margin-left: 23px;
+	}
+
+	.logo-banner .hapo-erp {
+		height: 30px;
+		width: 100px;
+		margin-top: 8px;
+		margin-bottom: 20px;
+	}
+
+	.icon-and-text img {
+		width: 18px;
+		height: 20px;
+		margin: 0;
+	}
+
+	.icon-and-text p {
+		height: 24px;
+		margin-bottom: 12px;
+
+		font-size: 18px;
+		letter-spacing: -0.03px;
+		line-height: 24px;
+
+	}
+
+	.text-banner {
+		height: 11px;
+		font-size: 9px;
+		line-height: 11px;
+
+	}
+
+
+	.btn-start-top {
+		margin-top: 15px;
+		margin-bottom: 27px;
+	}
+
+	/*-----------------*/
+
+	.section-learnt {
+		height: 687px;
+		box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1);
+	}
+
+	.section-report, .section-project {
+		height: 671px;
+	}
+
+	.section-members {
+		height: 800px;
+	}
+
+	.section-our-customer {
+		height: 525px;
+	}
+
+	.content-learnt, .content-report, .content-members, .content-project {
+		margin-top: 30px;
+	}
+
+	.footer {
+		height: 209.31px;
+		background-color: #39474E;
+		box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
+	}
+
+	.content-footer {
+		margin-top: 24px;
+		margin-bottom: 26px;
+	}
+	
+
+
+	.icon-and-title {
+		justify-content: center;
+		margin-bottom: 5px;
+	}
+
+
+	.icon-and-title img {
+		height: 20px;
+		width: 20px;
+		margin-top: 4px;
+
+	}
+
+	.icon-and-title h1 {
+		margin-left: 10px;
+		margin-bottom: 0px;
+
+		height: 32px;
+
+		color: #444444;
+		font-family: Roboto;
+		font-size: 24px;
+		font-weight: 300;
+		letter-spacing: -0.05px;
+		line-height: 32px;
+	}
+
+	.img-learnt {
+		height: 302.47px;
+		width: 100%;
+		padding-top: 10px;
+	}
+
+
+	.img-report {
+		height: 271.34px;
+		width: 100%;
+	}
+
+	.img-members {
+		height: 345px;
+		width: 100%;
+	}
+
+	.img-project {
+		height: 275px;
+		width: 100%;
+	}
+
+
+	.text-content span {
+		height: 24px;
+		font-size: 13px;
+		text-align: center;
+		padding:0px;
+	}
+
+
+	.text-content p {
+		line-height: 21px;
+		margin: 0;
+	}
+
+	.btn-content {
+		text-align: center;
+	}
+
+	.section-learnt .text-content p {
+		padding-top:20px;
+	}
+
+
+	.section-learnt .btn-content {
+		margin-top: 20px;
+	}
+
+	.section-report .text-content p {
+		padding-top:15px;
+		margin-bottom: 20px;
+
+	}
+
+	.section-report .btn-content, .section-project .btn-content {
+		margin-top: 35px;
+	}
+
+	.section-feature {
+		height: 296px;
+		background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+
+	}
+	.content-feature {
+		margin-top: 38.75px;
+		height: 100%;
+	}
+
+
+
+
+	.section-members .text-content p {
+		height: 67px;
+		margin-left: 13px;
+	}
+	.section-members .check-one {
+		margin-top: 20px;
+		margin-bottom: 7.5px;
+	}
+
+	.section-members .check-two {
+		margin-top: 7.5px;
+		margin-bottom: 7.5px;
+	}
+
+	.section-members .check-three {
+		margin-top: 7.5px;
+		margin-bottom: 0;
+	}
+
+
+	.section-members .btn-content {
+		margin-top: 30px;
+	}
+
+
+	.section-our-customer .title-our-customer p {
+		margin-top: 25px;
+		margin-bottom: 38px;
+
+		height: 32px;
+		width: 144px;
+		font-size: 24px;
+		font-weight: 300;
+		letter-spacing: -0.05px;
+		line-height: 32px;
+
+	}
+
+
+	.section-our-customer .text-lorent img {
+		height: 48px;
+		width: 48px;
+	}
+
+
+
+	.section-our-customer .text-lorent p {
+		margin-bottom: 0;
+		margin-top: 5px;
+		height: 100px;
+		font-size: 14px;
+		font-weight: 300;
+		letter-spacing: -0.03px;
+		line-height: 25px;
+
+	}
+
+
+
+	.logo-footer img {
+		height: 24px;
+		width: 96px;
+
+		margin-bottom: 25px;
+	}
+
+	.list-link .title-footer {
+		color: #8BC34A;
+		font-family: Roboto;
+		font-size: 12px;
+		font-weight: 500;
+		letter-spacing: -0.02px;
+		line-height: 16px;
+	}
+
+
+
+	.list-link a {
+
+		color: #D0D8DC;
+		font-family: Roboto;
+		font-size: 10px;
+		font-weight: 500;
+		letter-spacing: -0.02px;
+		line-height: 20px;
+	}
+
+	.icon-social-network .list-icon-sn {
+		width: 115px;
+	}
+	.icon-social-network .list-icon-sn img {
+		height: 13px;
+		width: 13px;
+	}
+
+	.icon-social-network .text-footer {
+
+		height: 13px;
+		width: 69px;
+		color: #D0D8DC;
+		font-family: Roboto;
+		font-size: 10px;
+		font-weight: 500;
+		letter-spacing: -0.02px;
+		line-height: 13px;
+
+	}
+
+/*-----------------
+ end mobile
+ /*-------------------*/
+
+}
+
+
+
+
