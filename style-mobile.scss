@@ -1,0 +1,318 @@
+@import "identify.scss";
+
+@media (max-width:768px) {
+	.col-2p {
+		width: 2%;
+	}
+
+	.col-96p {
+		width: 96%;
+	}
+
+	.icon-and-title {
+		justify-content: center;
+		margin-bottom: 5px;
+
+		img {
+			height: 20px;
+			width: 20px;
+			margin-top: 4px;
+		}
+
+		h1 {
+			height: 32px;
+			margin-left: 10px;
+			color: #444444;
+			font-family: $font_default;
+			@include text_size(24px, 300, -0.05px, 32px);
+		}
+
+	}
+
+	.text-content {
+		span {
+			height: 24px;
+			font-size: 13px;
+			text-align: center;
+			padding: 0px;
+		}
+
+		p {
+			line-height: 21px;
+			margin: 0;
+		}
+
+	}
+
+	.btn-content {
+		text-align: center;
+	}
+
+	.header {
+		height: 265.75px;
+		background-image: url('../template-bootstrap/banner-mobile.jpg');
+
+		.ul-banner {
+			padding: 0;
+			margin: 15px 0 0 0;
+
+			.about-us {
+				margin-top: 5px;
+			}
+
+			.sign-in {
+				margin-left: 23px;
+			}
+
+		}
+
+		.logo-banner {
+			.hapo-erp {
+				height: 30px;
+				width: 100px;
+				margin: 8px 0 20px 0;
+			}
+
+		}
+
+		.icon-and-text {
+			margin-bottom: 12px;
+
+			img {
+				width: 18px;
+				height: 20px;
+				margin: 0;
+			}
+
+			span {
+				height: 24px;
+				@include text_size(18px, 400, -0.03px, 24px);
+			}
+
+		}
+
+		.text-banner {
+			height: 11px;
+			font-size: 9px;
+			line-height: 11px;
+		}
+
+		.btn-start-top {
+			margin: 15px 0 27px 0;
+		}
+
+	}
+
+	.section-learnt {
+		height: 687px;
+		box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+
+		.img-learnt {
+			height: 302.47px;
+			width: 100%;
+			padding-top: 10px;
+		}
+
+		.content-learnt {
+			margin-top: 30px;
+
+			.text-content {
+				p {
+					padding-top: 20px;
+				}
+
+			}
+
+			.btn-content {
+				margin-top: 20px;
+			}
+
+		}
+
+	}
+
+	.section-report {
+		height: 671px;
+
+		.img-report {
+			height: 271.34px;
+			width: 100%;
+		}
+
+		.content-report {
+			margin-top: 30px;
+
+			.text-content {
+				p {
+					padding-top: 15px;
+					margin-bottom: 20px;
+				}
+
+			}
+
+			.btn-content {
+				margin-top: 35px;
+			}
+
+		}
+
+	}
+
+	.section-feature {
+		height: 296px;
+		background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+
+		.content-feature {
+			margin-top: 38.75px;
+			height: 100%;
+		}
+
+	}
+
+	.section-project {
+		height: 671px;
+
+		.img-project {
+			height: 275px;
+			width: 100%;
+		}
+
+		.content-project {
+			margin-top: 30px;
+
+			.btn-content {
+				margin-top: 35px;
+			}
+
+		}
+
+	}
+
+	.section-members {
+		height: 800px;
+
+		.img-members {
+			height: 345px;
+			width: 100%;
+		}
+
+		.content-members {
+			margin-top: 30px;
+
+			.text-content {
+				p {
+					height: 67px;
+					margin-left: 13px;
+				}
+
+			}
+
+			.check-one {
+				margin: 20px 0 7.5px 0;
+			}
+
+			.check-two {
+				margin: 7.5px 0 7.5px 0;
+			}
+
+			.check-three {
+				margin-top: 7.5px;
+			}
+
+			.btn-content {
+				margin-top: 30px;
+			}
+
+		}
+
+	}
+
+	.section-our-customer {
+		height: 525px;
+
+		.content-our-customer {
+			.title-our-customer {
+				span {
+					margin: 25px 0 38px 0;
+					height: 32px;
+					@include text_size(24px, 300, -0.05px, 32px);
+				}
+
+			}
+
+			.text-lorent {
+				img {
+					height: 48px;
+					width: 48px;
+				}
+
+				p {
+					margin-top: 5px;
+					height: 100px;
+					@include text_size(14px, 300, -0.03px, 25px);
+				}
+
+			}
+
+		}
+
+	}
+
+	.footer {
+		height: 209.31px;
+		background-color: #39474E;
+		box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
+
+		.content-footer {
+			margin: 24px 0 26px 0;
+
+			.logo-footer {
+				img {
+					height: 24px;
+					width: 96px;
+					margin-bottom: 25px;
+				}
+
+			}
+
+			.list-link {
+				.title-footer {
+					color: #8BC34A;
+					font-family: $font_default;
+					@include text_size(12px, 500, -0.02px, 16px);
+				}
+
+				a {
+					color: #D0D8DC;
+					font-family: $font_default;
+					@include text_size(10px, 500, -0.02px, 20px);
+				}
+
+			}
+
+			.icon-social-network {
+				.list-icon-sn {
+					width: 115px;
+
+					img {
+						height: 13px;
+						width: 13px;
+					}
+
+				}
+
+				.text-footer {
+					height: 13px;
+					width: 69px;
+					color: #D0D8DC;
+					font-family: $font_default;
+					@include text_size(10px, 500, -0.02px, 13px);
+				}
+
+			}
+
+		}
+
+	}
+
+}

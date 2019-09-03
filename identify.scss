@@ -1,0 +1,25 @@
+$font_default: Roboto;
+$color_sign_in: #8bc34a;
+$color_header_text: #283238;
+$white: #FFFFFF;
+
+@mixin border_oval {
+	box-sizing: border-box;
+	border: 2.5px solid $white;
+	border-radius: 50%;
+}
+
+@mixin text_size ($font-size, $font-weight, $letter-spacing, $line-height) {
+	font-size: $font-size;
+	font-weight: $font-weight;
+	letter-spacing: $letter-spacing;
+	line-height: $line-height;
+}
+
+@mixin border_dot {
+	height: 11px;
+	width: 11px;
+	margin-bottom: 39.5px;
+	border: 0.5px solid $white;
+	border-radius: 50%;
+}
